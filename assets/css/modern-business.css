@@ -1,0 +1,483 @@
+body {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1280px;
+}
+.navbar {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 120px;
+}
+.phone-icon
+{
+  width: 100%;
+  left: 153px;
+  top: 21px;
+  max-width: 14px;
+  height: 15px;
+  position: absolute;
+  display: -webkit-inline-box;
+}
+#phone-content {
+  width: 100%;
+  padding-left: 6px;
+  color: white;
+}
+
+.mail-icon {
+  width: 100%;
+  left: 353px;
+  top: 21px;
+  position: absolute;
+  max-width: 17px;
+  height: 13px;
+  z-index:201;
+  display: -webkit-inline-box;
+}
+#mail-content {
+  width: 100%;
+  padding-left: 6px;
+  color: white;
+}
+#nav-socials
+{
+  width: 100%;
+  left: 780px;
+  top: 18px;
+  position: absolute;
+  max-width: 113px;
+  height: 18px;
+  z-index:198;
+}
+.login
+{
+  width: 100%;
+  left: 962px;
+  top: 21px;
+  position: absolute;
+  max-width: 15px;
+  height: 17px;
+  z-index:196;
+  display: -webkit-inline-box;
+}
+#login-content {
+  width: 100%;
+  padding-left: 6px;
+}
+
+.signup
+{
+  width: 100%;
+  left: 1043px;
+  top: 21px;
+  position: absolute;
+  max-width: 17px;
+  height: 17px;
+  z-index:197;
+  display: -webkit-inline-box;
+}
+#signup-content {
+  width: 100%;
+  padding-left: 6px;
+  color: white;
+}
+#nav-stripe {
+  width: 100%;
+  left: 141px;
+  top: 52px;
+  position: absolute;
+  max-width: 998px;
+  height: 5px;
+  z-index:190;
+  margin: 0 auto;
+}
+#Exploore
+{
+  width: 100%;
+  left: 151px;
+  top: 68px;
+  position: absolute;
+  max-width: 102px;
+  height: 25px;
+  z-index:193;
+}
+.navigation {
+  width: 100%;
+  left: 486px;
+  top: 85px;
+  position: absolute;
+  max-width: 1280px;
+  height: 9px;
+  z-index:191;
+  color: white;
+}
+.navigation a{
+  display:inline-block;
+  vertical-align: top;
+  padding-right: 44px;
+  font-family: 'Myriad Pro';
+  font-size: 12.9pt;
+}
+
+#creativetaglinehere
+{
+  width: 100%;
+  left: 149px;
+  top: 97px;
+  position: absolute;
+  max-width: 104px;
+  height: 5px;
+  z-index:194;
+}
+.header {
+  width: 100%;
+  height: 669px;
+  min-height: 300px;
+  max-width: 1280px;
+  margin: 0 auto;
+  top: -120px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.header-caption {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  position: absolute;
+  height: 23px;
+  top: 270px;
+  z-index: 10;
+  color: #fff;
+  text-align: center;
+  font-size: 32pt;
+  font-family: 'Montserrat';
+}
+#header-big-caption {
+  width: 100%;
+  max-width: 570px;
+  max-height: 75px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 44pt;
+  font-family: 'Montserrat';
+}
+#adventure-with-us {
+  width: 100%;
+  max-width: 570px;
+  margin: 0 auto;
+  top: -100px;
+  color: #fff;
+  font-size: 32pt;
+  font-family: 'Montserrat';
+}
+#header-small-caption p{
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 1.4vw;
+  font-family: 'Montserrat';
+}
+#find-hotels {
+  width: 100%;
+  max-width: 1280px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 22pt;
+
+}
+.form-hotel {
+
+  margin: 0 auto;
+  padding-left: 18px;
+  display:inline-block;
+  margin-left: 20px;
+
+}
+.form-hotel .btn-dark{
+  width: 174px;
+  max-height: 12px;
+}
+.form-hotel input{
+  border-radius: 5px;
+  outline: none;
+  border-style: hidden;
+}
+.form-hotel p{
+  vertical-align: top;
+  font-family: 'Montserrat';
+  font-size: 16pt;
+}
+.content {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  background-color: #edd536;
+  height: 270px;
+}
+.about {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  height: 490px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.about-header {
+  font-size: 15pt;
+  font-family: "Montserrat";
+  max-width: 640px;
+  float: left;
+  margin: 0 auto;
+  width: 100%;
+  height: 490px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.about-text {
+  float: right;
+  left: 640px;
+  top: 935px;
+  width: 100%;
+  max-width: 640px;
+  max-height: 490px;
+  z-index:164;
+  font-size: 20pt;
+  font-family: 'Montserrat';
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  display: inline-block;
+}
+.about-text p {
+  margin-left: 40px;
+  margin-top: -10px;
+}
+#about-text {
+  font-size: 9pt;
+  font-family: Calibri;
+  max-width: 444px;
+  display: inline-block;
+
+}
+.check-icon{
+  top: 1195px;
+  width: 303px;
+  height: 146px;
+  z-index:167;
+  color: #005cbf;
+  font-size: 9pt;
+
+}
+.check-icon p{
+  color: black;
+}
+.services {
+  max-height: 550px;
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
+.servicesHead p{
+  font-size: 20pt;
+  margin : 0 auto;
+  text-align: center;
+}
+.services1 {
+  max-width: 410px;
+  margin-bottom: 80px;
+  margin-left: 155px;
+  margin-right: 150px;
+  background-color: white;
+  display: -webkit-inline-box;
+}
+.services2 {
+  max-width: 410px;
+  margin-bottom: 80px;
+  background-color: white;
+  display: -webkit-inline-box;
+}
+.trustedSince {
+  max-height: 601px;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+.trustedSince .topImage {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.trustedSince #headtext {
+  left: 504px;
+  right: 490px;
+  top: 2047px;
+  position: absolute;
+  width: 275px;
+  height: 22px;
+  z-index: 146;
+  font-size: 29px;
+  text-align: center;
+  bottom: -10px;
+  margin: 0 auto;
+}
+#RoundedRectangle1
+{
+  margin: 0 auto;
+  max-width: 1280px;
+  left: 150px;
+  top: 2167px;
+  right: 835px;
+  position: absolute;
+  width: 309px;
+  height: 375px;
+  z-index:125;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.RoundedRectangleHead {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 20px;
+}
+#RoundedRectangle1 img {
+  left: 125px;
+  top: 30px;
+  position: absolute;
+  width: 62px;
+  height: 49px;
+  z-index:129;
+  margin: 0 auto;
+}
+#rectangleYellow1 {
+  left: -5px;
+  top: 140px;
+  position: absolute;
+  width: 320px;
+  height: 54px;
+  z-index:126;
+  background-color: #edd536;
+  border-radius: 2px;
+  margin: 0 auto;
+}
+#rectangleYellow1 p{
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+  font-family: "Montserrat";
+}
+#RoundedRectangle2
+{
+  margin: 0 auto;
+  max-width: 1280px;
+  left: 485px;
+  top: 2167px;
+  right: 485px;
+  position: absolute;
+  width: 309px;
+  height: 375px;
+  z-index:132;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+#RoundedRectangle2 img {
+  left: 125px;
+  top: 30px;
+  position: absolute;
+  width: 50px;
+  height: 59px;
+  z-index:129;
+  margin: 0 auto;
+}
+#rectangleYellow2 {
+  left: -5px;
+  top: 140px;
+  position: absolute;
+  width: 320px;
+  height: 54px;
+  z-index:126;
+  background-color: #edd536;
+  border-radius: 2px;
+  margin: 0 auto;
+}
+#rectangleYellow2 p{
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+  font-family: "Montserrat";
+}
+#RoundedRectangle3
+{
+  margin: 0 auto;
+  max-width: 1280px;
+  left: 830px;
+  top: 2167px;
+  position: absolute;
+  width: 309px;
+  height: 375px;
+  z-index:139;
+  right: 145px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+#RoundedRectangle3 img {
+  left: 125px;
+  top: 30px;
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  z-index:129;
+  margin: 0 auto;
+}
+#rectangleYellow3 {
+  left: -5px;
+  top: 140px;
+  position: absolute;
+  width: 320px;
+  height: 54px;
+  z-index:126;
+  background-color: #edd536;
+  border-radius: 2px;
+  margin: 0 auto;
+}
+#rectangleYellow3 p{
+  text-align: center;
+  padding: 10px;
+  font-size: 25px;
+  font-family: "Montserrat";
+}
+.trustedSinceContent .fa-ul {
+  display: inline-block;
+  margin-top: 20px;
+  color: #005cbf;
+
+
+}
+.trustedSinceContent .fa-ul p{
+  margin-left: 85px;
+  color: black;
+
+}
+
+.trustedSince .bottomImage {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #00a4ff;
+  height: 205px;
+
+}
+footer {
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #edd536;
+  max-height: 147px;
+}
+

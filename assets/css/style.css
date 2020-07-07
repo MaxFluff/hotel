@@ -1,0 +1,42 @@
+body {
+    margin: 0 auto;
+
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1280px;
+    height: 669px;
+    background-image: url("../img/head.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+.head {
+    width: 100%;
+    opacity: 0.561;
+    background-color: #000;
+    background-color: rgba(0,0,0,0.4);
+    height: 110px;
+    text-align: center;
+    background-size: contain;
+}
+.headTop {
+
+}
+#headMiddle {
+    width: 100%;
+    max-width: 996px;
+    height: 53px;
+    border-bottom: solid #999 3px;
+    margin: 0 auto;
+}
+
+#phoneNumber{
+    max-width: 996px;
+    background-image: url("../img/phone_icon.png");
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    color: white;
+
+}
